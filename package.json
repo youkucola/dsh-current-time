@@ -1,0 +1,27 @@
+{
+  "name": "dsh-current-time",
+  "version": "1.0.0",
+  "description": "实时获取北京时间的 Aurabot 工具插件。",
+  "author": "youkucola",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./index.mjs": "./index.mjs",
+    "./module.json": "./module.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/time.mjs",
+    "index.mjs",
+    "module.json",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  }
+}
